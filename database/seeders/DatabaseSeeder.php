@@ -17,5 +17,6 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
         $this->call(CurrencySeeder::class);
         $this->call(ProjectSeeder::class);
+        $this->call(ProjectCostSeeder::class);
     }
 }

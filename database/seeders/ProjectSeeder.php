@@ -18,8 +18,7 @@ class ProjectSeeder extends Seeder
         Project::create([
             'id' => 1,
             'name' => 'المشروع الأول',
-            'description' => 'وصف المشروع الأول',
-            'cost' => 10
+            'description' => 'وصف المشروع الأول'
         ]);
     }
 }

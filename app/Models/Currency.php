@@ -10,4 +10,9 @@ class Currency extends Model
     use HasFactory;
 
     protected $guarded = [];
+
+    public function costs()
+    {
+        return $this->hasMany(ProjectCost::class);
+    }
 }
